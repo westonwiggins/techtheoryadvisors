@@ -27,7 +27,7 @@ export default function App() {
           <h2>What kind of IT help do you need?</h2>
           <button style={{ padding: 15, width: "100%", marginBottom: 10 }} onClick={() => { setForm({ ...form, needs: "IT Support" }); next(); }}>IT Support</button>
           <button style={{ padding: 15, width: "100%", marginBottom: 10 }} onClick={() => { setForm({ ...form, needs: "Consulting" }); next(); }}>Consulting</button>
-          <button style={{ padding: 15, width: "100%" }} onClick={() => { setForm({ ...form, needs: "Project Work" }); next(); }}>Project Work</button>
+          <button style={{ padding: 15, width: "100%" }} onClick={() => { setForm({ ...form, needs: "Special IT Projects" }); next(); }}>Special IT Projects</button>
         </div>
       )}
 

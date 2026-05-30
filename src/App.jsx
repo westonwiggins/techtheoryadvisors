@@ -8,8 +8,8 @@ export default function App() {
       <h1>IT Support for Small Businesses in Farmington, UT</h1>
       <p>Fast, reliable IT support and consulting.</p>
 
-      <a href="tel:+18010000000">📞 Call Now</a><br/>
-      <a href="mailto:you@yourbusiness.com">✉️ Email</a>
+      <a href="tel:+18016283323">📞 Call Now</a><br/>
+      <a href="mailto:wes@techtheoryadvisors.com.com">✉️ Email</a>
 
       <h2>Services</h2>
       <ul>

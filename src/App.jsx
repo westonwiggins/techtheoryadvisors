@@ -5,7 +5,7 @@ export default function App() {
 
   return (
     <div style={{ fontFamily: 'Arial', padding: 20 }}>
-      <h1>IT Support for Small Businesses in Farmington, UT</h1>
+      <h1>Azure Cloud, IT Security and IT Support for Small Businesses in Farmington, UT</h1>
       <p>Fast, reliable IT support and consulting.</p>
 
       <a href="tel:+18016283323">📞 Call Now</a><br/>

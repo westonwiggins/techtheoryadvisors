@@ -8,9 +8,9 @@ export default function App() {
   const back = () => setStep(step - 1);
 
   return (
-    <div style={{ fontFamily:"Arial", maxWidth:600, margin:"auto", padding:20, background:"#37b3a8", minHeight:"100vh" }}>
+    <div style={{ fontFamily:"Arial", backgroundColor:"#37b3a8", backgroundImage:"url('/pattern.png')", backgroundSize:"400px", backgroundRepeat:"repeat", backgroundBlendMode:"overlay", minHeight:"100vh", padding:"40px 20px" }}>
 
-      <div style={{ background:"white", padding:30, borderRadius:12, boxShadow:"0 4px 12px rgba(0,0,0,0.15)" }}>
+      <div style={{ maxWidth:"900px", margin:"0 auto", background:"white", padding:40, borderRadius:12, boxShadow:"0 8px 30px rgba(0,0,0,0.2)" }}>
 
         <h1 style={{ textAlign:"center" }}>Tech Theory Advisors</h1>
         <p style={{ textAlign:"center" }}>Fast IT Support for Small Businesses</p>
@@ -60,5 +60,5 @@ export default function App() {
   );
 }
 
-const btn={padding:15,width:"100%",marginBottom:10,borderRadius:8,border:"none",background:"#1f7f76",color:"white",fontSize:16,cursor:"pointer"};
-const input={width:"100%",padding:10};
+const btn={padding:16,width:"100%",marginBottom:12,borderRadius:10,border:"none",background:"#1f7f76",color:"white",fontSize:17,cursor:"pointer"};
+const input={width:"100%",padding:12,fontSize:16};

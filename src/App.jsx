@@ -90,14 +90,35 @@ export default function App() {
                   <li>Backup and disaster recovery validation</li>
                   <li>Compliance readiness (where applicable)</li>
                 </ul>
-                
-                <ul>
-                  <li>Microsoft Azure</li>
-                  <li>O365</li>
-                  <li>Intune</li>
-                  <li>AWS</li>
-                  <li>Google Workspace</li>
-                </ul>
+<h3>Technologies & Platforms</h3>
+
+<div style={{
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "8px",
+  marginTop: "10px"
+}}>
+  {[
+    "Microsoft 365 (O365)",
+    "Azure",
+    "AWS",
+    "Intune",
+    "Google Workspace",
+    "Active Directory",
+    "Endpoint Security",
+    "Identity & Access Management"
+  ].map((tech) => (
+    <span key={tech} style={{
+      background: "#eef2f3",
+      padding: "6px 10px",
+      borderRadius: "6px",
+      fontSize: "14px"
+    }}>
+      {tech}
+    </span>
+  ))}
+</div>
+``
                 
                 <p>
                   Whether you need a one-time audit or ongoing security guidance, Tech Theory can help you build a stronger, more resilient environment.

@@ -74,13 +74,12 @@ export default function App() {
               <div>
                 <h2>IT Security Services</h2>
                 <p>
-                  I specialize in helping businesses identify and improve their cybersecurity posture. I hold a Master's Degree
-                  in Information Systems and have over 10 years of experience assessing security controls in both the banking
-                  and Department of Defense (DoD) industries.
+                  We specialize in helping businesses identify and improve their cybersecurity posture. Armed with over 10 years of experience assessing security controls in high profile industries like
+                  the Department of Defense (DoD) and the banking industry, we provide a Defense in Depth and Zero Trust framework that can help you secure your most valuable business assets.
                 </p>
 
                 <p>
-                  I provide comprehensive security assessments that evaluate your current infrastructure, identify vulnerabilities,
+                  We provide comprehensive security assessments that evaluate your current infrastructure, identify vulnerabilities,
                   and deliver actionable recommendations to strengthen your organization’s defenses.
                 </p>
 
@@ -91,9 +90,17 @@ export default function App() {
                   <li>Backup and disaster recovery validation</li>
                   <li>Compliance readiness (where applicable)</li>
                 </ul>
-
+                
+                <ul>
+                  <li>Microsoft Azure</li>
+                  <li>O365</li>
+                  <li>Intune</li>
+                  <li>AWS</li>
+                  <li>Google Workspace</li>
+                </ul>
+                
                 <p>
-                  Whether you need a one-time audit or ongoing security guidance, I can help you build a stronger, more resilient environment.
+                  Whether you need a one-time audit or ongoing security guidance, Tech Theory can help you build a stronger, more resilient environment.
                 </p>
               </div>
             )}

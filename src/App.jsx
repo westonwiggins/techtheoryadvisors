@@ -85,7 +85,6 @@ export default function App() {
 
                 <ul>
                   <li>Full security audits and risk assessments</li>
-                  <li>Network and endpoint security reviews</li>
                   <li>Identity and access management evaluation</li>
                   <li>Backup and disaster recovery validation</li>
                   <li>Compliance readiness (where applicable)</li>
@@ -105,6 +104,7 @@ export default function App() {
     "Intune",
     "Google Workspace",
     "Active Directory",
+    "Entra ID",
     "Endpoint Security",
     "Identity & Access Management"
   ].map((tech) => (

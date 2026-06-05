@@ -89,37 +89,16 @@ export default function App() {
                   <li>Backup and disaster recovery validation</li>
                   <li>Compliance readiness (where applicable)</li>
                 </ul>
-<h3>Technologies & Platforms</h3>
 
-<div style={{
-  display: "flex",
-  flexWrap: "wrap",
-  gap: "8px",
-  marginTop: "10px"
-}}>
-  {[
-    "Microsoft 365 (O365)",
-    "Azure",
-    "AWS",
-    "Intune",
-    "Google Workspace",
-    "Active Directory",
-    "Entra ID",
-    "Endpoint Security",
-    "Identity & Access Management"
-  ].map((tech) => (
-    <span key={tech} style={{
-      background: "#eef2f3",
-      padding: "6px 10px",
-      borderRadius: "6px",
-      fontSize: "14px"
-    }}>
-      {tech}
-    </span>
-  ))}
-</div>
-``
-                
+                <h3>Technologies & Platforms</h3>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: "10px" }}>
+                  {["Microsoft 365 (O365)","Azure","AWS","Intune","Google Workspace","Active Directory","Entra ID","Endpoint Security","Identity & Access Management"].map((tech) => (
+                    <span key={tech} style={{ background: "#eef2f3", padding: "6px 10px", borderRadius: "6px", fontSize: "14px" }}>
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
                 <p>
                   Whether you need a one-time audit or ongoing security guidance, Tech Theory can help you build a stronger, more resilient environment.
                 </p>
@@ -128,51 +107,39 @@ export default function App() {
 
             {selection === "projects" && (
               <div>
-<h2>IT Project Management Services</h2>
-                <p>  
-                  Tech Theory helps businesses successfully plan and execute IT initiatives with a focus on efficiency, clarity, and results.   We understand that poorly managed IT projects can lead to downtime, missed deadlines, and unnecessary costs — our approach is designed to prevent that.
+                <h2>IT Project Management Services</h2>
+
+                <p>
+                  Tech Theory helps businesses successfully plan and execute IT initiatives with a focus on efficiency, clarity, and results. 
+                  We understand that poorly managed IT projects can lead to downtime, missed deadlines, and unnecessary costs — our approach is designed to prevent that.
                 </p>
-                <p>  We have experience leading and supporting projects such as cloud migrations, office IT setup, and disaster recovery exercises.   Our goal is to keep projects organized, on schedule, and aligned with your business priorities from start to finish.
+
+                <p>
+                  We have experience leading and supporting projects such as cloud migrations, office IT setup, and disaster recovery exercises. 
+                  Our goal is to keep projects organized, on schedule, and aligned with your business priorities from start to finish.
                 </p>
-                <ul>  
-                  <li>Cloud migrations (Microsoft 365, Azure, AWS)</li>  
-                  <li>New office setup and infrastructure planning</li>  
-                  <li>Disaster recovery planning and testing</li>  
-                  <li>System upgrades and technology rollouts</li>  
+
+                <ul>
+                  <li>Cloud migrations (Microsoft 365, Azure, AWS)</li>
+                  <li>New office setup and infrastructure planning</li>
+                  <li>Disaster recovery planning and testing</li>
+                  <li>System upgrades and technology rollouts</li>
                   <li>Vendor coordination and project oversight</li>
                 </ul>
-                <p>  
-                  We focus on the details that matter — identifying risks early, avoiding costly mistakes, and ensuring the most important tasks are completed first.   This keeps your project moving forward efficiently without unnecessary delays or surprises.
+
+                <p>
+                  We focus on the details that matter — identifying risks early, avoiding costly mistakes, and ensuring the most important tasks are completed first.
                 </p>
-                <p>  
-                  Whether you need guidance on a specific initiative or help managing a full project from start to finish,   Tech Theory provides structured, reliable support to ensure your IT projects are completed successfully.
-                </p>
+
+                <h3>Technologies & Platforms</h3>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: "10px" }}>
+                  {["Microsoft 365","Azure","AWS","Google Workspace","Virtualization","Networking","Backup & Recovery"].map((tech) => (
+                    <span key={tech} style={{ background: "#eef2f3", padding: "6px 10px", borderRadius: "6px", fontSize: "14px" }}>
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
-            <h3>Technologies & Platforms</h3>
-            <div style={{  
-            display: "flex",  
-            flexWrap: "wrap",  
-            gap: "8px",  
-            marginTop: "10px"
-          }}>  
-            {[    
-            "Microsoft 365",    
-            "Azure",    
-            "AWS",    
-            "Google Workspace",    
-            "Virtualization",    
-            "Networking",    
-            "Backup & Recovery"  
-          ].map((tech) => (    
-            <span key={tech} style={{      
-              background: "#eef2f3",      
-              padding: "6px 10px",      
-              borderRadius: "6px",      
-              fontSize: "14px"    
-            }}>      
-              {tech}    
-            </span>  
-          ))}</div>
             )}
 
             {selection === "support" && (
@@ -215,15 +182,5 @@ export default function App() {
   );
 }
 
-const btn = {
-  padding: 16,
-  width: "100%",
-  marginBottom: 12,
-  borderRadius: 10,
-  border: "none",
-  background: "#1f7f76",
-  color: "white",
-  fontSize: 17
-};
-
+const btn = { padding: 16, width: "100%", marginBottom: 12, borderRadius: 10, border: "none", background: "#1f7f76", color: "white", fontSize: 17 };
 const input = { width: "100%", padding: 12 };

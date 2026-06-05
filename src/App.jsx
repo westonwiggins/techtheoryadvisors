@@ -128,10 +128,24 @@ export default function App() {
 
             {selection === "projects" && (
               <div>
-                <h2>IT Project Management</h2>
-                <p>
-                  I help businesses successfully plan and execute IT initiatives including system upgrades, migrations,
-                  and infrastructure changes.
+<h2>IT Project Management Services</h2>
+                <p>  
+                  Tech Theory helps businesses successfully plan and execute IT initiatives with a focus on efficiency, clarity, and results.   We understand that poorly managed IT projects can lead to downtime, missed deadlines, and unnecessary costs — our approach is designed to prevent that.
+                </p>
+                <p>  We have experience leading and supporting projects such as cloud migrations, office IT setup, and disaster recovery exercises.   Our goal is to keep projects organized, on schedule, and aligned with your business priorities from start to finish.
+                </p>
+                <ul>  
+                  <li>Cloud migrations (Microsoft 365, Azure, AWS)</li>  
+                  <li>New office setup and infrastructure planning</li>  
+                  <li>Disaster recovery planning and testing</li>  
+                  <li>System upgrades and technology rollouts</li>  
+                  <li>Vendor coordination and project oversight</li>
+                </ul>
+                <p>  
+                  We focus on the details that matter — identifying risks early, avoiding costly mistakes, and ensuring the most important tasks are completed first.   This keeps your project moving forward efficiently without unnecessary delays or surprises.
+                </p>
+                <p>  
+                  Whether you need guidance on a specific initiative or help managing a full project from start to finish,   Tech Theory provides structured, reliable support to ensure your IT projects are completed successfully.
                 </p>
               </div>
             )}

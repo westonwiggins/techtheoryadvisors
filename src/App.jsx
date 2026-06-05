@@ -43,42 +43,86 @@ export default function App() {
         {step===2 && (
           <div>
 
-            {selection==="support" && (
+            {selection === "security" && (
               <div>
-                <h2>IT Support Services</h2>
-
+                <h2>IT Security Services</h2>
                 <p>
-                  Hiring a full-time, in-house IT specialist can be expensive and often unnecessary for many small businesses. 
-                  Tech Theory provides flexible IT support solutions that give you the expertise you need without the overhead 
-                  of a full-time employee.
+                  We specialize in helping businesses identify and improve their cybersecurity posture. Armed with over 10 years of experience assessing security controls in high profile industries like
+                  the Department of Defense (DoD) and the banking industry, we provide a Defense in Depth and Zero Trust framework that can help you secure your most valuable business assets.
                 </p>
 
                 <p>
-                  We support local businesses by handling day-to-day IT issues, troubleshooting problems, and keeping systems running smoothly.
-                  Whether you need occasional help or more consistent support, we can scale our services to match your needs.
-                </p>
-
-                <p>
-                  Support can be provided both remotely and in person, depending on the situation. This allows us to resolve most issues quickly 
-                  while still being available onsite when hands-on assistance is needed.
-                </p>
-
-                <p>
-                  Our goal is simple — minimize downtime, keep your team productive, and ensure your technology is working for your business, 
-                  not against it.
+                  We provide comprehensive security assessments that evaluate your current infrastructure, identify vulnerabilities,
+                  and deliver actionable recommendations to strengthen your organization’s defenses.
                 </p>
 
                 <ul>
-                  <li>Remote troubleshooting and support</li>
-                  <li>Onsite support for local businesses</li>
-                  <li>User support for day-to-day issues</li>
-                  <li>System maintenance and monitoring</li>
-                  <li>Fast response to minimize disruption</li>
+                  <li>Full security audits and risk assessments</li>
+                  <li>Identity and access management evaluation</li>
+                  <li>Backup and disaster recovery validation</li>
+                  <li>Compliance readiness (where applicable)</li>
                 </ul>
 
                 <h3>Technologies & Platforms</h3>
                 <div style={{ display:"flex", flexWrap:"wrap", gap:"8px", marginTop:"10px" }}>
-                  {["Windows","Microsoft 365","Google Workspace","Networking","Printers & Devices","Endpoint Support","Remote Access"].map((tech)=>(
+                  {["Microsoft 365 (O365)","Azure","AWS","Intune","Google Workspace","Active Directory","Entra ID","Endpoint Security","Identity & Access Management"].map((tech)=>(
+                    <span key={tech} style={{ background:"#eef2f3", padding:"6px 10px", borderRadius:"6px", fontSize:"14px" }}>{tech}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {selection === "projects" && (
+              <div>
+                <h2>IT Project Management Services</h2>
+
+                <p>
+                  Tech Theory helps businesses successfully plan and execute IT initiatives with a focus on efficiency, clarity, and results.
+                  We understand that poorly managed IT projects can lead to downtime, missed deadlines, and unnecessary costs.
+                </p>
+
+                <p>
+                  We have experience leading projects such as cloud migrations, office IT setup, and disaster recovery exercises.
+                </p>
+
+                <ul>
+                  <li>Cloud migrations (Microsoft 365, Azure, AWS)</li>
+                  <li>Office setup and infrastructure planning</li>
+                  <li>Disaster recovery planning</li>
+                  <li>Technology rollouts</li>
+                </ul>
+
+                <h3>Technologies & Platforms</h3>
+                <div style={{ display:"flex", flexWrap:"wrap", gap:"8px", marginTop:"10px" }}>
+                  {["Microsoft 365","Azure","AWS","Google Workspace","Networking","Backup & Recovery"].map((tech)=>(
+                    <span key={tech} style={{ background:"#eef2f3", padding:"6px 10px", borderRadius:"6px", fontSize:"14px" }}>{tech}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {selection === "support" && (
+              <div>
+                <h2>IT Support Services</h2>
+
+                <p>
+                  Hiring a full-time, in-house IT specialist can be expensive and often unnecessary for many small businesses.
+                  Tech Theory provides flexible IT support solutions without the overhead of a full-time employee.
+                </p>
+
+                <p>
+                  We support local businesses with both remote and in-person support depending on the need.
+                </p>
+
+                <ul>
+                  <li>Remote troubleshooting</li>
+                  <li>Onsite support</li>
+                  <li>System maintenance</li>
+                </ul>
+
+                <h3>Technologies & Platforms</h3>
+                <div style={{ display:"flex", flexWrap:"wrap", gap:"8px", marginTop:"10px" }}>
+                  {["Windows","Microsoft 365","Networking","Remote Access"].map((tech)=>(
                     <span key={tech} style={{ background:"#eef2f3", padding:"6px 10px", borderRadius:"6px", fontSize:"14px" }}>{tech}</span>
                   ))}
                 </div>

@@ -148,6 +148,23 @@ export default function App() {
                   Whether you need guidance on a specific initiative or help managing a full project from start to finish,   Tech Theory provides structured, reliable support to ensure your IT projects are completed successfully.
                 </p>
               </div>
+            <h3>Technologies & Platforms</h3>
+            <div style={{  
+            display: "flex",  
+            flexWrap: "wrap",  
+            gap: "8px",  
+            marginTop: "10px"
+          }}>  
+            {[    
+            "Microsoft 365",    
+            "Azure",    
+            "AWS",    
+            "Google Workspace",    
+            "Virtualization",    
+            "Networking",    
+            "Backup & Recovery"  
+          ].map((tech) => (    
+            <span key={tech} style={{      background: "#eef2f3",      padding: "6px 10px",      borderRadius: "6px",      fontSize: "14px"    }}>      {tech}    </span>  ))}</div>
             )}
 
             {selection === "support" && (

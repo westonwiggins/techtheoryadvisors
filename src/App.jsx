@@ -164,7 +164,15 @@ export default function App() {
             "Networking",    
             "Backup & Recovery"  
           ].map((tech) => (    
-            <span key={tech} style={{      background: "#eef2f3",      padding: "6px 10px",      borderRadius: "6px",      fontSize: "14px"    }}>      {tech}    </span>  ))}</div>
+            <span key={tech} style={{      
+              background: "#eef2f3",      
+              padding: "6px 10px",      
+              borderRadius: "6px",      
+              fontSize: "14px"    
+            }}>      
+              {tech}    
+            </span>  
+          ))}</div>
             )}
 
             {selection === "support" && (

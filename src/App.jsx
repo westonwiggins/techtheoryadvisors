@@ -24,7 +24,7 @@ export default function App() {
       <div style={{maxWidth:"900px", margin:"0 auto", background:"white", padding:40, borderRadius:12, boxShadow:"0 8px 30px rgba(0,0,0,0.2)"}}>
 
         <h1 style={{ textAlign:"center" }}>Tech Theory Advisors</h1>
-        <p style={{ textAlign:"center" }}>Fast IT Support for Small Businesses</p>
+        <p style={{ textAlign:"center" }}>Fast IT Services for Small Businesses</p>
         <p style={{ textAlign:"center", color:"green" }}>✅ Same-day response available</p>
 
         <div style={{ height:6, background:"#eee", marginBottom:20 }}>

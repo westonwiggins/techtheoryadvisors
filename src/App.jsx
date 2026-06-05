@@ -319,14 +319,7 @@ export default function App() {
           ))}</div>
             )}
 
-            {selection === "support" && (
-              <div>
-                <h2>IT Support Services</h2>
-                <p>
-                  Ongoing support to keep your systems running smoothly, resolve issues quickly, and minimize downtime.
-                </p>
-              </div>
-            )}
+{selection === "support" && (  <div>    <h2>IT Support Services</h2>    <p>      Hiring a full-time, in-house IT specialist can be expensive and often unnecessary for many small businesses.       Tech Theory provides flexible IT support solutions that give you the expertise you need without the overhead       of a full-time employee.    </p>    <p>      We support local businesses by handling day-to-day IT issues, troubleshooting problems, and keeping systems running smoothly.      Whether you need occasional help or more consistent support, we can scale our services to match your needs.    </p>    <p>      Support can be provided both remotely and in person, depending on the situation. This allows us to resolve most issues quickly       while still being available onsite when hands-on assistance is needed.    </p>    <p>      Our goal is simple — minimize downtime, keep your team productive, and ensure your technology is working for your business,       not against it.    </p>    <ul>      <li>Remote troubleshooting and support</li>      <li>Onsite support for local businesses</li>      <li>User support for day-to-day issues</li>      <li>System maintenance and monitoring</li>      <li>Fast response to minimize disruption</li>    </ul>    <h3>Technologies & Platforms</h3>    <div style={{      display: "flex",      flexWrap: "wrap",      gap: "8px",      marginTop: "10px"    }}>      {[        "Windows",        "Microsoft 365",        "Google Workspace",        "Networking",        "Printers & Devices",        "Endpoint Support",        "Remote Access"      ].map((tech) => (        <span key={tech} style={{          background: "#eef2f3",          padding: "6px 10px",          borderRadius: "6px",          fontSize: "14px"        }}>          {tech}        </span>      ))}    </div>  </div>)}
 
             <h3>Tell us about your business</h3>
 

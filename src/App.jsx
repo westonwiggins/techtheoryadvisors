@@ -31,7 +31,7 @@ export default function App() {
           prevent costly IT issues before they happen.
         </p>
         <p style={{ textAlign: "center", color: "green" }}>  
-          ✅ Same-day response available • ✅ Local & remote support
+          ✅ Custom solutions tailored to your business• ✅ Local & remote support
         </p>
 
         <div style={{ height:6, background:"#eee", marginBottom:20 }}>

@@ -41,7 +41,7 @@ export default function App() {
         </p>
 
         <p style={{ textAlign: "center" }}>
-          Prefer email? <a href="mailto:wes@techtheoryadvisors.com">wes@techtheoryadvisors.com</a>
+          Prefer email? <a href="mailto:info@techtheoryadvisors.com">wes@techtheoryadvisors.com</a>
         </p>
 
         <div style={{ height:6, background:"#eee", marginBottom:20 }}>
